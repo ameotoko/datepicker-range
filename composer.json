@@ -1,0 +1,15 @@
+{
+    "name": "ameotoko/datepicker-range",
+    "type": "contao-component",
+    "description": "Date picker range integration for Contao Open Source CMS",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andrey Vinichenko",
+            "homepage": "https://github.com/ameotoko"
+        }
+    ],
+    "require": {
+        "contao-components/installer": "^1.0.9"
+    }
+}
