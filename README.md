@@ -13,6 +13,11 @@ $GLOBALS['TL_DCA']['tl_iso_product']['fields']['startDate']['eval']['datepicker'
 // Add customized version
 $GLOBALS['TL_DCA']['tl_iso_product']['fields']['startDate']['wizard'] = array(array('tl_calendar_events', 'datePickerRangeWizard'));
 
+use Contao\Config;
+use Contao\Date;
+use Contao\Image;
+use Contao\StringUtil;
+
 class tl_calendar_events extends Backend {
 
     public function datePickerRangeWizard(DataContainer $dc) {
